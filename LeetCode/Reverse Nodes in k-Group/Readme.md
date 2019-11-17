@@ -64,8 +64,8 @@ public:
 
 ```
 
-> faster than 8.11%
-`if(k == 1) 전 후`
+> faster than 8.11%   
+`if(k == 1) 전 후`   
 >Runtime: 20 ms, faster than 70.98% of C++ online submissions for Reverse Nodes in k-Group.
 Memory Usage: 9.7 MB, less than 100.00% of C++ online submissions for Reverse Nodes in k-Group.
 Next challenges:
