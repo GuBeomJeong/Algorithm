@@ -4,7 +4,7 @@
 key를 hashMap으로 저장하고, 각 값들을 hashMap에 List로 저장하였다.   
 즉 nums[1] = 1 의 key 리스트, nums[2] = 2의 key 리스트 ...   
 또한 values는 nums 의 list이다.    
-values 의 노드들은 list[1], list[2] ...이다. values의 head가 최소, values의 tail이 최대값이 된다.
+values 의 노드들은 nums[1], nums[2] ...이다. values의 head가 최소, values의 tail이 최대값이 된다.
 
 ``` c++
 class AllOne {
