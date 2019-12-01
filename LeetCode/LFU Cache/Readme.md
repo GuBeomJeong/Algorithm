@@ -211,16 +211,16 @@ public:
                 datas.erase(node->key);
             }
             node = new Node(key, value);
-			datas[key] = node;
+            datas[key] = node;
 
-			list = freq[1];
+	    list = freq[1];
             
-			if (list == 0) {
-				list = new List<Node*>();
-				freq[1] = list;
-                freqList.push_front(list);
-			}
-			list->push_back(node);
+   	    if (list == 0) {
+		list = new List<Node*>();
+		freq[1] = list;
+		freqList.push_front(list);
+	    }
+	    list->push_back(node);
             size++;
         }
         
