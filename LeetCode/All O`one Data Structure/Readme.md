@@ -229,10 +229,7 @@ public:
 			return "";
 		}
 
-		cout << values.head->head->key << endl;
-
-		List<Node*>* list = values.tail;
-		return list->head->key;
+		return values.tail->head->key;
 	}
 
 	/** Returns one of the keys with Minimal value. */
