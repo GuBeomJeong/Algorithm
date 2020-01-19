@@ -56,4 +56,5 @@ public:
 ```
 >Runtime: 32 ms, faster than 48.26% of C++ online submissions for Merge k Sorted Lists.
 Memory Usage: 12.6 MB, less than 5.95% of C++ online submissions for Merge k Sorted Lists.
-Next challenges:
+Next challenges:   
+다른 방법도 찾아봐야한다.
