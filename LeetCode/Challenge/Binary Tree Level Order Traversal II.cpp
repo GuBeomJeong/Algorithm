@@ -12,9 +12,13 @@
 class Solution {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
+        vector<vector<int>> result;
+        
+        if(!root){
+            return result;
+        }
         queue<pair<TreeNode*,int>> q;
         q.push({root,1});
-        vector<vector<int>> result;
         
         while(!q.empty()){
             TreeNode* node = q.front().first;
