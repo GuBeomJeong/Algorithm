@@ -68,8 +68,6 @@ public:
         
         return merge(l1,l2);
     }
-    
-    
 };
 ```
 > Runtime: 140 ms, faster than 11.05% of C++ online submissions for Sort List.
