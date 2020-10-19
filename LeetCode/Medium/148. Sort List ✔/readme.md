@@ -162,3 +162,5 @@ public:
     
 };
 ```
+>Runtime: 120 ms, faster than 13.17% of C++ online submissions for Sort List.
+Memory Usage: 29.4 MB, less than 5.34% of C++ online submissions for Sort List.
